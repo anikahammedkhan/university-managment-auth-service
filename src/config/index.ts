@@ -3,6 +3,7 @@ import path from 'path'
 
 dotenv.config({ path: path.join(process.cwd(), '.env') })
 
+// added comment to test git
 export default {
   port: process.env.PORT,
   database_url: process.env.DATABASE_URL,
