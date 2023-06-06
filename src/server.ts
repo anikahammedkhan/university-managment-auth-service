@@ -1,16 +1,17 @@
 import mongoose from 'mongoose'
 import app from './app'
 import config from './config/index'
+import { errorLogger, logger } from './share/logger'
 
 async function bootstrap() {
   try {
     await mongoose.connect(config.database_url as string)
-    console.log('Connected to the database')
+    logger.info('Connected to database')
     app.listen(config.port, () => {
-      console.log(`University Auth Server listening on port ${config.port}`)
+      logger.info(`Server started on port ${config.port}`)
     })
   } catch (err) {
-    console.log('Failed To connect', err)
+    errorLogger.error(err)
   }
 }
 

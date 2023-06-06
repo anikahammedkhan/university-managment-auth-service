@@ -1,0 +1,14 @@
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-04T21:22:58.042Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-04T21:22:58.060Z'
+}
