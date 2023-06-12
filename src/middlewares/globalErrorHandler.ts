@@ -1,11 +1,15 @@
+/* eslint-disable no-console */
+/* eslint-disable no-unused-expressions */
 import { ErrorRequestHandler } from 'express'
 import mongoose from 'mongoose'
 import config from '../config/index'
 import ApiError from '../errors/ApiError'
 import handleValidationError from '../errors/handleValidationError'
 import { IGenericErrorMessages } from '../interfaces/error'
+import { errorLogger } from '../share/logger'
 
 const globalErrorHandler: ErrorRequestHandler = (err, req, res, next) => {
+  config.env === 'development' ? console.log(err) : errorLogger.error(err)
   let statusCode = 500
   let message = 'Something went wrong'
   let errorMessage: IGenericErrorMessages[] = []

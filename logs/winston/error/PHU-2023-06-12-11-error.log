@@ -1,0 +1,10 @@
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T05:59:49.432Z'
+}

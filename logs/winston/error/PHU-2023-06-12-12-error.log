@@ -1,0 +1,320 @@
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:00:41.771Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:06:31.536Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:07:23.872Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:07:37.420Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:07:56.493Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:08:03.024Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:08:37.901Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:08:48.578Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:08:55.856Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:09:35.117Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:12:48.726Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:14:09.279Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:17:29.363Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:20:43.757Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:21:03.649Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:21:25.579Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:35:53.843Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:36:37.740Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:36:46.235Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:37:54.244Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:46:40.665Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:47:12.060Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:47:21.112Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:47:38.050Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:47:46.145Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:47:56.243Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:50:09.543Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:50:24.589Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:50:46.529Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:51:21.982Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:52:27.209Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.nrovuja.mongodb.net',
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-12T06:53:23.573Z'
+}
