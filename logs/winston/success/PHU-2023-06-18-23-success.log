@@ -1,0 +1,98 @@
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:32:41.228Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:32:41.246Z'
+}
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:34:03.728Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:34:03.746Z'
+}
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:34:42.454Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:34:42.472Z'
+}
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:35:05.375Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:35:05.392Z'
+}
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:35:15.981Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:35:15.999Z'
+}
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:35:35.652Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:35:35.669Z'
+}
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:36:01.069Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-18T17:36:01.088Z'
+}

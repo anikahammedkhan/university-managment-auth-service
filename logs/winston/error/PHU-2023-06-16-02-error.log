@@ -1,0 +1,6 @@
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'PHU-Error',
+  timestamp: '2023-06-15T20:35:36.894Z'
+}

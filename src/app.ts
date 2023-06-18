@@ -12,6 +12,8 @@ app.use('/api/v1/users/', UserRoutes)
 
 // app.get('/', async (req: Request, res: Response, next: NextFunction) => {
 //   Promise.reject(new Error('Something went wrong'))
+// // res.send('Hello World')';
+// // next()
 // })
 
 app.use(globalErrorHandler)

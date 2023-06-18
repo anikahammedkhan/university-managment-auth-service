@@ -6,11 +6,6 @@
     "auditLog": "E:\\Level 2\\Module\\University-management-auth-service\\logs\\winston\\success\\.166dbe6b2f74d2b64bf4526a0c6e2d24374da232-audit.json",
     "files": [
         {
-            "date": 1685913777315,
-            "name": "E:\\Level 2\\Module\\University-management-auth-service\\logs\\winston\\success\\PHU-2023-06-05-03-success.log",
-            "hash": "9d77b17ce7a858ba28979243956a09ab75b34d36b2cfe8a92923d339292ddaaf"
-        },
-        {
             "date": 1686549589323,
             "name": "E:\\Level 2\\Module\\University-management-auth-service\\logs\\winston\\success\\PHU-2023-06-12-11-success.log",
             "hash": "b007c286ee6a28dbdea9107e17d282be25bdcd2a845255b13ab559c73750f74b"
@@ -39,6 +34,26 @@
             "date": 1686586243159,
             "name": "E:\\Level 2\\Module\\University-management-auth-service\\logs\\winston\\success\\PHU-2023-06-12-22-success.log",
             "hash": "fe6b2234589c23ea8808b656333b71b4ff1b4f67af2c2129131ef38f37fa80a5"
+        },
+        {
+            "date": 1686861084690,
+            "name": "E:\\Level 2\\Module\\University-management-auth-service\\logs\\winston\\success\\PHU-2023-06-16-02-success.log",
+            "hash": "f8161ec71ea494a95914ec62fea1c642ae5cc6c998b2a06021f8066841d17561"
+        },
+        {
+            "date": 1687109560328,
+            "name": "E:\\Level 2\\Module\\University-management-auth-service\\logs\\winston\\success\\PHU-2023-06-18-23-success.log",
+            "hash": "e1381f5c926ca9d311342e021af50083d45b39267def5992a9373b73792cfce5"
+        },
+        {
+            "date": 1687124955182,
+            "name": "E:\\Level 2\\Module\\University-management-auth-service\\logs\\winston\\success\\PHU-2023-06-19-03-success.log",
+            "hash": "56531aeec4760ad233efd67ca69574ba21dbde84a8fe3f4f32b2de4a0eb2488d"
+        },
+        {
+            "date": 1687125631464,
+            "name": "E:\\Level 2\\Module\\University-management-auth-service\\logs\\winston\\success\\PHU-2023-06-19-04-success.log",
+            "hash": "659dd6d91babe4e26b6bae1329396789a99343c32adc8f5dc5244a4a56303f46"
         }
     ],
     "hashType": "sha256"

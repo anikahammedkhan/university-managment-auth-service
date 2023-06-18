@@ -23,6 +23,7 @@ async function bootstrap() {
   }
 
   process.on('unhandledRejection', error => {
+    console.log(error)
     if (server) {
       server.close(() => {
         errorLogger.error(error)

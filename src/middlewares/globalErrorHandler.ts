@@ -1,31 +1,39 @@
 /* eslint-disable no-console */
 /* eslint-disable no-unused-expressions */
-import { ErrorRequestHandler } from 'express'
-import mongoose from 'mongoose'
+import { ErrorRequestHandler, NextFunction, Request, Response } from 'express'
+import { ZodError } from 'zod'
 import config from '../config/index'
 import ApiError from '../errors/ApiError'
 import handleValidationError from '../errors/handleValidationError'
+import handleZodError from '../errors/handleZodError'
 import { IGenericErrorMessages } from '../interfaces/error'
 import { errorLogger } from '../share/logger'
 
-const globalErrorHandler: ErrorRequestHandler = (err, req, res, next) => {
-  config.env === 'development' ? console.log(err) : errorLogger.error(err)
+const globalErrorHandler: ErrorRequestHandler = (
+  error,
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  config.env === 'development' ? console.log(error) : errorLogger.error(error)
   let statusCode = 500
   let message = 'Something went wrong'
   let errorMessage: IGenericErrorMessages[] = []
 
-  if (err.name === 'ValidationError') {
-    const simplifiedError = handleValidationError(
-      err as mongoose.Error.ValidationError
-    )
+  if (error?.name === 'ValidationError') {
+    const simplifiedError = handleValidationError(error)
     statusCode = simplifiedError.statusCode
     message = simplifiedError.message
     errorMessage = simplifiedError.errorMessages
-  } else if (err instanceof ApiError) {
-    const error = err as ApiError
-    statusCode = error.statusCode
+  } else if (error instanceof ZodError) {
+    const simplifiedError = handleZodError(error)
+    statusCode = simplifiedError.statusCode
+    message = simplifiedError.message
+    errorMessage = simplifiedError.errorMessages
+  } else if (error instanceof ApiError) {
+    statusCode = error?.statusCode
     message = error.message
-    errorMessage = error.message
+    errorMessage = error?.message
       ? [
           {
             path: '',
@@ -33,13 +41,13 @@ const globalErrorHandler: ErrorRequestHandler = (err, req, res, next) => {
           },
         ]
       : []
-  } else if (err instanceof Error) {
-    message = err.message
-    errorMessage = err.message
+  } else if (error instanceof Error) {
+    message = error?.message
+    errorMessage = error.message
       ? [
           {
             path: '',
-            message: err.message,
+            message: error.message,
           },
         ]
       : []
@@ -49,7 +57,7 @@ const globalErrorHandler: ErrorRequestHandler = (err, req, res, next) => {
     success: false,
     message,
     errorMessage,
-    stack: config.env === 'development' ? err.stack : undefined,
+    stack: config.env === 'development' ? error?.stack : undefined,
   })
 
   next()

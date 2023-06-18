@@ -1,0 +1,56 @@
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-15T20:31:25.650Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-15T20:31:25.676Z'
+}
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-15T20:33:21.838Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-15T20:33:21.856Z'
+}
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-15T20:34:12.306Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-15T20:34:12.337Z'
+}
+{
+  message: 'Connected to database',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-15T20:35:54.739Z'
+}
+{
+  message: 'Server started on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PHU-Info',
+  timestamp: '2023-06-15T20:35:54.757Z'
+}
