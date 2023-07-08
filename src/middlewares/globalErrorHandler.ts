@@ -18,22 +18,22 @@ const globalErrorHandler: ErrorRequestHandler = (
   config.env === 'development' ? console.log(error) : errorLogger.error(error)
   let statusCode = 500
   let message = 'Something went wrong'
-  let errorMessage: IGenericErrorMessages[] = []
+  let errorMessages: IGenericErrorMessages[] = []
 
   if (error?.name === 'ValidationError') {
     const simplifiedError = handleValidationError(error)
     statusCode = simplifiedError.statusCode
     message = simplifiedError.message
-    errorMessage = simplifiedError.errorMessages
+    errorMessages = simplifiedError.errorMessages
   } else if (error instanceof ZodError) {
     const simplifiedError = handleZodError(error)
     statusCode = simplifiedError.statusCode
     message = simplifiedError.message
-    errorMessage = simplifiedError.errorMessages
+    errorMessages = simplifiedError.errorMessages
   } else if (error instanceof ApiError) {
     statusCode = error?.statusCode
     message = error.message
-    errorMessage = error?.message
+    errorMessages = error?.message
       ? [
           {
             path: '',
@@ -43,7 +43,7 @@ const globalErrorHandler: ErrorRequestHandler = (
       : []
   } else if (error instanceof Error) {
     message = error?.message
-    errorMessage = error.message
+    errorMessages = error.message
       ? [
           {
             path: '',
@@ -56,7 +56,7 @@ const globalErrorHandler: ErrorRequestHandler = (
   res.status(statusCode).json({
     success: false,
     message,
-    errorMessage,
+    errorMessages,
     stack: config.env === 'development' ? error?.stack : undefined,
   })
 

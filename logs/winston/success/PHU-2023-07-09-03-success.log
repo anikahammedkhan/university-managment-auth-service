@@ -3,26 +3,26 @@
   level: 'info',
   service: 'user-service',
   label: 'PHU-Info',
-  timestamp: '2023-06-18T21:49:16.925Z'
+  timestamp: '2023-07-08T21:07:56.742Z'
 }
 {
   message: 'Server started on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PHU-Info',
-  timestamp: '2023-06-18T21:49:17.202Z'
+  timestamp: '2023-07-08T21:07:56.762Z'
 }
 {
   message: 'Connected to database',
   level: 'info',
   service: 'user-service',
   label: 'PHU-Info',
-  timestamp: '2023-06-18T21:50:48.234Z'
+  timestamp: '2023-07-08T21:15:28.852Z'
 }
 {
   message: 'Server started on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PHU-Info',
-  timestamp: '2023-06-18T21:50:48.251Z'
+  timestamp: '2023-07-08T21:15:28.872Z'
 }
